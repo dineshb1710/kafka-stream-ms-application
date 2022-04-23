@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: DOMAIN-PERSISTING-SERVICE-APPLICATION
+  datasource:
+    url: jdbc:mysql://localhost:3306/web_domains
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
