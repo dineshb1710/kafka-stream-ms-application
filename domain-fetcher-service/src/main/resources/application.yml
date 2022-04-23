@@ -4,3 +4,9 @@ server:
 spring:
   application:
     name: DOMAIN-FETCHER-SERVICE-APPLICATION
+
+domain:
+  topic:
+    name: web-domains
+  api:
+    base-url: https://api.domainsdb.info/v1/domains/search?domain
